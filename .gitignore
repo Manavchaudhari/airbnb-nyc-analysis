@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+airbnb.db
+
+# Optional: ignore data files if you don't want them on GitHub
+data/raw/*
+data/clean/*
+!data/raw/.gitkeep
+!data/clean/.gitkeep
+
